@@ -21,3 +21,7 @@
   .active {
     background-color: #4CAF50; /* Add an active/current color */
   }
+
+  .progress {
+    margin-bottom: 20px;
+  }
