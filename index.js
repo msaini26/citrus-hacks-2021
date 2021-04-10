@@ -70,6 +70,7 @@ function authWithCredential(credential) {
     .then((result) => {
       // Signed in 
       // ...
+      window.location = "random.html";
     })
     .catch((error) => {
       // Handle Errors here.
