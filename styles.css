@@ -6,13 +6,16 @@
   z-index: -1;
 }
 .container {
-  width: 100vw;
-  height: 100vh;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 7rem;
-  padding: 0 2rem;
-  background-image: url("/img/wave.png");
+  /* width: 70vw;
+  height: 80vh; */
+  /* padding-top: 40%; */
+  display: flex;
+  justify-content: center;
+  position: relative;
+  /* grid-template-columns: repeat(2, 1fr);
+  grid-gap: 7rem; */
+  /* padding: 0 2rem; */
+  background-image: url("");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
