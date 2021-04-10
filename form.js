@@ -31,8 +31,7 @@ function signIn() {
   const promise = auth.signInWithEmailAndPassword(email.value, password.value);
   promise.catch((e) => alert(e.message));
   alert("Signed In");
-  window.location.pathname =
-    "D:/newwelfare-ai-main/newwelfare-ai-main/inner-page.html";
+    window.location.pathname = "http://127.0.0.1:5500/random.html";
     // Fix path after website
 }
 
