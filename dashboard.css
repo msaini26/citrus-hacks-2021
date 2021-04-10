@@ -22,6 +22,62 @@
     background-color: #4CAF50; /* Add an active/current color */
   }
 
+  /* progress bar */
   .progress {
-    margin-bottom: 20px;
+    margin: 20px;
   }
+
+  .progress-edit {
+    background-color: navy;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  
+
+  /* bootstrap columns */
+  .col-sm-6 {
+    padding: 10px;
+  }
+
+  .welcome {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .cardio {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("images/cardio.jpg");
+    border: 3px navy solid;
+    background-size: 340px;
+  }
+
+  .core {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("images/core.jpg");
+    border: 3px navy solid;
+    background-size: 340px;
+  
+  }
+
+  .placeholder {
+    padding: 50px;
+  }
+
+  .categ {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background: none;
+    /* background-color: #be9a30; */
+    color: white;
+    font-size: 2.0rem;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    /* border-radius: 5px; */
+  }
+
+
+ 
