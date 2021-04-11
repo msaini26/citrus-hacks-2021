@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/msaini26/citrus-hacks-2021#readme",
   "dependencies": {
-    "server": "^1.0.32"
+    "server": "^1.0.32",
+    "twilio": "^3.60.0"
   }
 }

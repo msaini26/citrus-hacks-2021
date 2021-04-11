@@ -15,13 +15,6 @@ function makeGoogleCredential(googleUser) {
   // [END auth_make_google_credential]
 }
 
-function makeFacebookCredential(response) {
-  // [START auth_make_facebook_credential]
-  var credential = firebase.auth.FacebookAuthProvider.credential(
-    response.authResponse.accessToken);
-  // [END auth_make_facebook_credential]
-}
-
 function makeEmailCredential(email, password) {
   // [START auth_make_email_credential]
   var credential = firebase.auth.EmailAuthProvider.credential(email, password);
