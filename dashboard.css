@@ -10,7 +10,7 @@
     width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
     padding: 12px 0; /* Some top and bottom padding */
     transition: all 0.3s ease; /* Add transition for hover effects */
-    color: #be9a30; /* White text color */
+    color: #be9a30; /* gold text color */
     font-size: 36px; /* Increased font size */
   }
   
@@ -104,6 +104,7 @@
   transform: translate(-50%, -50%);
   z-index: 10;
   font-family: "Red Hat Display", sans-serif;
+  margin-top: 20%;
 }
 
 .top3 {
@@ -111,14 +112,13 @@
   justify-content: center;
   align-items: flex-end;
   color: #4B4168;
-  margin-top: 20%;
 }
 .top3 .item {
   box-sizing: border-box;
   position: relative;
   background: white;
   width: 9rem;
-  height: 10rem;
+  height: 12rem;
   text-align: center;
   padding: 2.8rem 0 0;
   margin: 1rem 1rem 2rem;
@@ -159,7 +159,7 @@
 }
 .top3 .item.one {
   width: 10rem;
-  height: 11rem;
+  height: 13em;
   padding-top: 3.5rem;
 }
 .top3 .item.one .pic {
@@ -171,6 +171,7 @@
   transform: scale(1.05);
 }
 
+
 .list {
   padding-left: 2rem;
   margin: 0 auto;
@@ -179,11 +180,11 @@
   position: relative;
   display: flex;
   align-items: center;
-  background: white;
+  
   height: 3rem;
   border-radius: 4rem;
   margin-bottom: 2rem;
-  background: #EAA786;
+  background: #ffdc74;
   transform-origin: left;
   cursor: pointer;
   transition: transform 200ms ease-in-out;
@@ -229,3 +230,8 @@
 .list .item:hover .pos {
   opacity: 0.8;
 }
+
+.list .participant {
+  background: #03254c;
+  color: whitesmoke;
+} 
