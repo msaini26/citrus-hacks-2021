@@ -53,6 +53,8 @@
     background-size: 340px;
   }
 
+
+
   .core {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("images/core.jpg");
     border: 3px navy solid;
@@ -235,3 +237,4 @@
   background: #03254c;
   color: whitesmoke;
 } 
+
