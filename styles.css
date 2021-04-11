@@ -1,14 +1,22 @@
 .wave {
   position: fixed;
   bottom: 0;
-  left: 0;
-  height: 100%;
+  left: -69px;
+  top:48px;
+  height: 93%;
   z-index: -1;
 }
+
+/* Logo styling for login */
+#logo {
+  width: 93%;
+  height: auto;
+}
+
 .container {
   /* width: 70vw;
   height: 80vh; */
-  /* padding-top: 40%; */
+  padding-right: 7%;
   display: flex;
   justify-content: center;
   position: relative;
@@ -33,7 +41,7 @@
 } */
 .img {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
 }
 
@@ -84,11 +92,12 @@ form {
 .input-div > div > h5 {
   position: absolute;
   left: 10px;
-  top: 50%;
-  transform: translateY(-50%);
+  top: -5%;
+  transform: translateY(-68%);
   color: #999;
   font-size: 18px;
   transition: 0.3s;
+  font-family: "Montserrat", sans-serif;
 }
 .input-div:before,
 .input-div:after {
@@ -152,7 +161,7 @@ button {
   border-radius: 25px;
   outline: none;
   border: none;
-  background-image: linear-gradient(to right, #c1c1d7, #cdcddf, #b5b5d0);
+  background-image: linear-gradient(to right, #d09d1f, #febf10, #ffdc74);
   background-size: 200%;
   font-size: 1.2rem;
   color: #fff;
@@ -200,9 +209,6 @@ button:hover {
     grid-template-columns: 1fr;
   }
   .img {
-    display: none;
-  }
-  .wave {
     display: none;
   }
   .login {
