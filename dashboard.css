@@ -1,6 +1,6 @@
 .icon-bar {
     width: 100%; /* Full-width */
-    background-color: #555; /* Dark-grey background */
+    background-color: #03254c; /* Dark-grey background */
     overflow: auto; /* Overflow due to float */
   }
   
@@ -10,16 +10,16 @@
     width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
     padding: 12px 0; /* Some top and bottom padding */
     transition: all 0.3s ease; /* Add transition for hover effects */
-    color: white; /* White text color */
+    color: #be9a30; /* White text color */
     font-size: 36px; /* Increased font size */
   }
   
   .icon-bar a:hover {
-    background-color: #000; /* Add a hover color */
+    background-color: rgb(175, 62, 62); /* Add a hover color */
   }
   
   .active {
-    background-color: #4CAF50; /* Add an active/current color */
+    background-color: whitesmoke; /* Add an active/current color */
   }
 
   /* progress bar */
@@ -54,6 +54,20 @@
 
   .core {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("images/core.jpg");
+    border: 3px navy solid;
+    background-size: 340px;
+  
+  }
+
+  .legs {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("images/legs.jpg");
+    border: 3px navy solid;
+    background-size: 340px;
+  
+  }
+
+  .arms {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("images/arms.jpg");
     border: 3px navy solid;
     background-size: 340px;
   
