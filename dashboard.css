@@ -2,6 +2,8 @@
     width: 100%; /* Full-width */
     background-color: #03254c; /* Dark-grey background */
     overflow: auto; /* Overflow due to float */
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
   }
   
   .icon-bar a {
@@ -10,7 +12,7 @@
     width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
     padding: 12px 0; /* Some top and bottom padding */
     transition: all 0.3s ease; /* Add transition for hover effects */
-    color: #be9a30; /* gold text color */
+    color:whitesmoke; /* gold text color */
     font-size: 36px; /* Increased font size */
   }
   
@@ -19,7 +21,7 @@
   }
   
   .active {
-    background-color: whitesmoke; /* Add an active/current color */
+    background-color: #be9a30; /* Add an active/current color */
   
   }
 
@@ -51,6 +53,7 @@
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("images/cardio.jpg");
     border: 3px navy solid;
     background-size: 340px;
+    border-radius: 30px;
   }
 
 
@@ -59,6 +62,7 @@
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("images/core.jpg");
     border: 3px navy solid;
     background-size: 340px;
+    border-radius: 30px;
   
   }
 
@@ -66,6 +70,7 @@
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("images/legs.jpg");
     border: 3px navy solid;
     background-size: 340px;
+    border-radius: 30px;
   
   }
 
@@ -73,6 +78,7 @@
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("images/arms.jpg");
     border: 3px navy solid;
     background-size: 340px;
+    border-radius: 30px;
   
   }
 
@@ -239,6 +245,6 @@
 } 
 
 .card {
-  box-shadow: 3px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 2px 2px 1px rgba(0, 0, 0, 0.2);
   
 }
